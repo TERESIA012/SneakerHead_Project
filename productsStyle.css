@@ -25,7 +25,8 @@ section{
     height: auto;
     background-color: white;
     text-align: center;
-    height: 14rem;
+    height: 12rem;
+    padding-top: 2rem;
 
 }
 .product-list{
@@ -37,14 +38,20 @@ ul{
     display: flex;
     width: 100%;
     list-style: none;
-    margin-left: -2rem;
     height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 li{
+    
     flex: 24%;   
     color: linen;
-    padding: 2rem;
-    
+    border-radius: 5px;
+    cursor: pointer;
 
+}
+.shoePopUp{
+    background-color: lightblue;
+    display: none;    
 }
