@@ -64,10 +64,7 @@ img {
 
 }
 
-.navbar .hambuger {
-    display: none;
 
-}
 
 .navbar .logo a {
     font-weight: 700;
@@ -85,13 +82,15 @@ img {
 
 .navbar .menu ul {
     display: flex;
+    margin-top: 2rem;
 
 }
 
 .navbar .menu ul li a {
     display: block;
     width: 120px;
-    margin-right: 3px;
+    margin-left: 3px;
+    margin-right: 0px;
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
@@ -166,5 +165,60 @@ animation-fill-mode: forwards;
     100%{
         transform: translateX(0);
         opacity: 1;
+    }
+}
+/*footer*/
+footer {
+    color: #e4e4e4;
+    background-color: #f5ac01;
+   
+    
+    
+}
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.flex-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+ ul {
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li {
+    padding: 0 15px;
+    margin-bottom: 16px;
+}
+a ,
+a:hover{
+    font-size: 14px;
+    font-weight: 500;
+    color: #e4e4e4;
+}
+i {
+    cursor: pointer;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-weight: 800;
+}
+footer i:hover{
+    animation: wobble 3s infinite;
+}
+@keyframes wobble {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(10);
+    }
+    10% {
+      transform: translateY(-10px);
+    }
+    20% {
+      transform: translateY(-10px);
     }
 }
