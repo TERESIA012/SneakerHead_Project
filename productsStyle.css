@@ -1,0 +1,50 @@
+/*
+#04091E dark purple
+10:46
+#FCB100 yellow
+10:47
+#251E51 purple
+10:47
+#E4E4E4 white
+*/
+html{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+header{
+    background-color: purple; 
+    height: 20rem;
+    text-align: center;
+    color: #fff;
+
+}
+h1{
+    padding-top: 7rem;
+}
+section{
+    height: auto;
+    background-color: white;
+    text-align: center;
+    height: 14rem;
+
+}
+.product-list{
+    background-color: #04091E;
+    font-size: .9rem;
+    height: 12rem;
+}
+ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin-left: -2rem;
+    height: 9rem;
+
+}
+li{
+    flex: 24%;   
+    color: linen;
+    padding: 2rem;
+    
+
+}
