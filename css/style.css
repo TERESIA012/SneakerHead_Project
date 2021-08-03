@@ -82,14 +82,16 @@ img {
     color: #fcb100;
 
 }
-.navbar .menu ul{
+
+.navbar .menu ul {
     display: flex;
 
 }
-.navbar .menu ul li a{
+
+.navbar .menu ul li a {
     display: block;
     width: 120px;
-    margin-right: 5px;
+    margin-right: 3px;
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
@@ -97,18 +99,72 @@ img {
     color: #e4e4e4;
     padding: 10px;
     border-radius: 25px;
-    transition:all 0.2s ease;
+    transition: all 0.2s ease;
 
 }
+
 a:hover {
     text-decoration: none;
 }
 
-.navbar .menu ul li:last-child a{
-   margin-right: 0; 
+.navbar .menu ul li:last-child a {
+    margin-right: 0;
 }
+
 .navbar .menu ul li a:hover,
-.navbar .menu ul li a.active{
+.navbar .menu ul li a.active {
     background-color: #fcb100;
-    
+
+}
+
+.head {
+
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    height: auto;
+    color: #fcb100;
+}
+.head h1 {
+text-decoration: underline #e4e4e4;
+animation: fromLeft 3s;
+animation-delay: 1s;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+@keyframes fromLeft {
+0%{
+    transform: translateX(100px);
+    opacity: 0;
+}
+50%{
+    transform: translateX(-100px)
+}
+100%{
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
+
+.head h6 {
+    color: #e4e4e4;
+    line-height: 200%;
+    animation: fromRight 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes fromRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(100px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
