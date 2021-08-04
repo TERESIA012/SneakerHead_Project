@@ -407,7 +407,7 @@ navbar {
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 3px;
-  color: #E04091e;
+  color: #04091e;
 }
 .navbar .logo a span {
   color: #FCB100;
@@ -437,7 +437,7 @@ a:hover {
   margin-right: 0;
 }
 .navbar .menu ul li a:hover,
-.navbar .menu ul li a.active {
+.navbar .menu ul li a:active {
   background-color: #FCB100;
 }
 footer {
