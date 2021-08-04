@@ -12,11 +12,12 @@ html{
     text-align: center;
 }
 header{
-    background-color: purple; 
+    background: url("assets/Puma-logo-1-500x281_40.png");
+    max-width: 100%;
+    background-size: cover;
     height: 20rem;
     text-align: center;
-    color: #fff;
-
+    color: rgb(255, 0, 0);
 }
 h1{
     padding-top: 7rem;
@@ -115,6 +116,17 @@ img{
     background-color: lawngreen;
     width: 9rem;
     
+}
+/*table*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.orderlist{
+    background-color: lightslategray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*modal*/
 .modal {
