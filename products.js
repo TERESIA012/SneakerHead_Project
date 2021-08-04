@@ -1,3 +1,544 @@
+/*TOGGLE DIV */
+var newDivOneA = document.getElementById("newDivOneA");
+var newDivOneB = document.getElementById("newDivOneB");
+var newDivOneC = document.getElementById("newDivOneC");
+
+
+
+
+var newDivTwoA = document.getElementById("newDivTwoA");
+var newDivTwoB = document.getElementById("newDivTwoB");
+var newDivTwoC = document.getElementById("newDivTwoC");
+
+
+
+
+
+var newDivThreeA = document.getElementById("newDivThreeA");
+var newDivThreeB = document.getElementById("newDivThreeB");
+var newDivThreeC = document.getElementById("newDivThreeC");
+var newDivThreeD = document.getElementById("newDivThreeD");
+var newDivThreeE = document.getElementById("newDivThreeE");
+var newDivThreeF = document.getElementById("newDivThreeF");
+
+
+
+
+var newDivFourA = document.getElementById("newDivFourA");
+var newDivFourB = document.getElementById("newDivFourB");
+var newDivFourC = document.getElementById("newDivFourC");
+var newDivFourD = document.getElementById("newDivFourD");
+var newDivFourE = document.getElementById("newDivFourE");
+var newDivFourF = document.getElementById("newDivFourF");
+
+
+
+
+var newDivFiveA = document.getElementById("newDivFiveA");
+var newDivFiveB = document.getElementById("newDivFiveB");
+var newDivFiveC = document.getElementById("newDivFiveC");
+var newDivFiveD = document.getElementById("newDivFiveD");
+var newDivFiveE = document.getElementById("newDivFiveE");
+var newDivFiveF = document.getElementById("newDivFiveF");
+
+
+
+var newDivSixA = document.getElementById("newDivSixA");
+var newDivSixB = document.getElementById("newDivSixB");
+var newDivSixC = document.getElementById("newDivSixC");
+var newDivSixD = document.getElementById("newDivSixD");
+var newDivSixE = document.getElementById("newDivSixE");
+var newDivSixF = document.getElementById("newDivSixF");
+
+
+
+var newDivSevenA = document.getElementById("newDivSevenA");
+var newDivSevenB = document.getElementById("newDivSevenB");
+var newDivSevenC = document.getElementById("newDivSevenC");
+var newDivSevenD = document.getElementById("newDivSevenD");
+var newDivSevenE = document.getElementById("newDivSevenE");
+var newDivSevenF = document.getElementById("newDivSevenF");
+
+
+
+
+
+newDivOneA.style.display = "none";
+newDivOneB.style.display = "none";
+newDivOneC.style.display = "none";
+
+
+
+
+
+
+newDivTwoA.style.display = "none";
+newDivTwoB.style.display = "none";
+newDivTwoC.style.display = "none";
+
+
+
+newDivThreeA.style.display = "none";
+newDivThreeB.style.display = "none";
+newDivThreeC.style.display = "none";
+newDivThreeD.style.display = "none";
+newDivThreeE.style.display = "none";
+newDivThreeF.style.display = "none";
+
+
+newDivFourA.style.display = "none";
+newDivFourB.style.display = "none";
+newDivFourC.style.display = "none";
+newDivFourD.style.display = "none";
+newDivFourE.style.display = "none";
+newDivFourF.style.display = "none";
+
+
+
+newDivFiveA.style.display = "none";
+newDivFiveB.style.display = "none";
+newDivFiveC.style.display = "none";
+newDivFiveD.style.display = "none";
+newDivFiveE.style.display = "none";
+newDivFiveF.style.display = "none";
+
+
+newDivSixA.style.display = "none";
+newDivSixB.style.display = "none";
+newDivSixC.style.display = "none";
+
+
+
+
+newDivSevenA.style.display = "none";
+newDivSevenB.style.display = "none";
+newDivSevenC.style.display = "none";
+newDivSevenD.style.display = "none";
+newDivSevenE.style.display = "none";
+newDivSevenF.style.display = "none";
+
+
+function myTogglerOneA(){
+    var newDivOneA = document.getElementById("newDivOneA");
+    if (newDivOneA.style.display === "none") {
+      newDivOneA.style.display = "block";
+  
+    } 
+    else {
+      newDivOneA.style.display = "none";
+    }
+}
+
+
+
+function myTogglerOneB(){
+    var newDivOneB = document.getElementById("newDivOneB");
+if (newDivOneB.style.display === "none") {
+  newDivOneB.style.display = "block";
+
+} 
+else {
+  newDivOneB.style.display = "none";
+}
+}
+
+function myTogglerOneC(){
+    var newDivOneC = document.getElementById("newDivOneC");
+    if (newDivOneC.style.display === "none") {
+      newDivOneC.style.display = "block";
+    
+    } 
+    else {
+      newDivOneC.style.display = "none";
+    }
+    
+
+}
+  
+
+
+function myTogglerTwoA(){
+    var newDivTwoA = document.getElementById("newDivTwoA");
+    if (newDivTwoA.style.display === "none") {
+      newDivTwoA.style.display = "block";
+    
+    } 
+    else {
+      newDivTwoA.style.display = "none";
+    }
+    
+
+}
+function myTogglerTwoB(){
+    var newDivTwoB = document.getElementById("newDivTwoB");
+    if (newDivTwoB.style.display === "none") {
+      newDivTwoB.style.display = "block";
+    
+    } 
+    else {
+      newDivTwoB.style.display = "none";
+    }
+    
+
+}
+function myTogglerTwoC(){
+    var newDivTwoC = document.getElementById("newDivTwoC");
+    if (newDivTwoC.style.display === "none") {
+      newDivTwoC.style.display = "block";
+    
+    } 
+    else {
+      newDivTwoC.style.display = "none";
+    }
+    
+
+}
+
+
+
+
+function myTogglerThreeA(){
+    var newDivThreeA = document.getElementById("newDivThreeA");
+    if (newDivThreeA.style.display === "none") {
+      newDivThreeA.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeA.style.display = "none";
+    }
+    
+
+}
+function myTogglerThreeB(){
+    var newDivThreeB = document.getElementById("newDivThreeB");
+    if (newDivThreeB.style.display === "none") {
+      newDivThreeB.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeB.style.display = "none";
+    }
+    
+
+}
+function myTogglerThreeC(){
+
+    var newDivThreeC = document.getElementById("newDivThreeC");
+    if (newDivThreeC.style.display === "none") {
+      newDivThreeC.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeC.style.display = "none";
+    }
+    
+}
+function myTogglerThreeD(){
+
+    var newDivThreeD = document.getElementById("newDivThreeD");
+    if (newDivThreeD.style.display === "none") {
+      newDivThreeD.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeD.style.display = "none";
+    }
+    
+}
+function myTogglerThreeE(){
+    var newDivThreeE = document.getElementById("newDivThreeE");
+    if (newDivThreeE.style.display === "none") {
+      newDivThreeE.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeE.style.display = "none";
+    }
+    
+
+}function myTogglerThreeF(){
+
+    var newDivThreeF = document.getElementById("newDivThreeF");
+    if (newDivThreeF.style.display === "none") {
+      newDivThreeF.style.display = "block";
+    
+    } 
+    else {
+      newDivThreeF.style.display = "none";
+    }
+    
+}
+
+
+
+
+function myTogglerFourA(){
+    var newDivFourA = document.getElementById("newDivFourA");
+    if (newDivFourA.style.display === "none") {
+      newDivFourA.style.display = "block";
+    
+    } 
+    else {
+      newDivFourA.style.display = "none";
+    }
+    
+
+}
+function myTogglerFourB(){
+    var newDivFourB = document.getElementById("newDivFourB");
+    if (newDivFourB.style.display === "none") {
+      newDivFourB.style.display = "block";
+    
+    } 
+    else {
+      newDivFourB.style.display = "none";
+    }
+    
+
+}
+function myTogglerFourC(){
+
+    var newDivFourC = document.getElementById("newDivFourC");
+    if (newDivFourC.style.display === "none") {
+      newDivFourC.style.display = "block";
+    
+    } 
+    else {
+      newDivFourC.style.display = "none";
+    }
+    
+}
+function myTogglerFourD(){
+    var newDivFourD = document.getElementById("newDivFourD");
+    if (newDivFourD.style.display === "none") {
+      newDivFourD.style.display = "block";
+    
+    } 
+    else {
+      newDivFourD.style.display = "none";
+    }
+    
+
+}
+function myTogglerFourE(){
+
+    var newDivFourE = document.getElementById("newDivFourE");
+    if (newDivFourE.style.display === "none") {
+      newDivFourE.style.display = "block";
+    
+    } 
+    else {
+      newDivFourE.style.display = "none";
+    }
+    
+}
+function myTogglerFourF(){
+    var newDivFourF = document.getElementById("newDivFourF");
+    if (newDivFourF.style.display === "none") {
+      newDivFourF.style.display = "block";
+    
+    } 
+    else {
+      newDivFourF.style.display = "none";
+    }
+    
+
+}
+
+
+
+function myTogglerFiveA(){
+    var newDivFiveA = document.getElementById("newDivFiveA");
+    if (newDivFiveA.style.display === "none") {
+      newDivFiveA.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveA.style.display = "none";
+    }
+    
+
+}
+function myTogglerFiveB(){
+
+     var newDivFiveB = document.getElementById("newDivFiveB");
+    if (newDivFiveB.style.display === "none") {
+      newDivFiveB.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveB.style.display = "none";
+    }
+    
+}
+function myTogglerFiveC(){
+    var newDivFiveC = document.getElementById("newDivFiveC");
+    if (newDivFiveC.style.display === "none") {
+      newDivFiveC.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveC.style.display = "none";
+    }
+    
+
+}
+function myTogglerFiveD(){
+    var newDivFiveD = document.getElementById("newDivFiveD");
+    if (newDivFiveD.style.display === "none") {
+      newDivFiveD.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveD.style.display = "none";
+    }
+    
+
+}
+function myTogglerFiveE(){
+    var newDivFiveE = document.getElementById("newDivFiveE");
+    if (newDivFiveE.style.display === "none") {
+      newDivFiveE.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveE.style.display = "none";
+    }
+    
+
+}
+function myTogglerFiveF(){
+    var newDivFiveF = document.getElementById("newDivFiveF");
+    if (newDivFiveF.style.display === "none") {
+      newDivFiveF.style.display = "block";
+    
+    } 
+    else {
+      newDivFiveF.style.display = "none";
+    }
+    
+
+}
+
+
+
+function myTogglerSixA(){
+
+    var newDivSixA = document.getElementById("newDivSixA");
+    if (newDivSixA.style.display === "none") {
+      newDivSixA.style.display = "block";
+    
+    } 
+    else {
+      newDivSixA.style.display = "none";
+    }
+    
+}
+function myTogglerSixB(){
+    var newDivSixB = document.getElementById("newDivSixB");
+    if (newDivSixB.style.display === "none") {
+      newDivSixB.style.display = "block";
+    
+    } 
+    else {
+      newDivSixB.style.display = "none";
+    }
+    
+
+}
+function myTogglerSixC(){
+
+    var newDivSixC = document.getElementById("newDivSixC");
+    if (newDivSixC.style.display === "none") {
+      newDivSixC.style.display = "block";
+    
+    } 
+    else {
+      newDivSixC.style.display = "none";
+    }
+    
+}
+
+
+
+
+function myTogglerSevenA(){
+    var newDivSevenA = document.getElementById("newDivSevenA");
+    if (newDivSevenA.style.display === "none") {
+      newDivSevenA.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenA.style.display = "none";
+    }
+    
+
+}
+function myTogglerSevenB(){
+    var newDivSevenB = document.getElementById("newDivSevenB");
+    if (newDivSevenB.style.display === "none") {
+      newDivSevenB.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenB.style.display = "none";
+    }
+    
+
+}
+function myTogglerSevenC(){
+
+    var newDivSevenC = document.getElementById("newDivSevenC");
+    if (newDivSevenC.style.display === "none") {
+      newDivSevenC.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenC.style.display = "none";
+    }
+    
+}
+function myTogglerSevenD(){
+    var newDivSevenD = document.getElementById("newDivSevenD");
+    if (newDivSevenD.style.display === "none") {
+      newDivSevenD.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenD.style.display = "none";
+    }
+    
+
+}
+function myTogglerSevenE(){
+
+    var newDivSevenE = document.getElementById("newDivSevenE");
+    if (newDivSevenE.style.display === "none") {
+      newDivSevenE.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenE.style.display = "none";
+    }
+    
+}
+function myTogglerSevenF(){
+    var newDivSevenF = document.getElementById("newDivSevenF");
+    if (newDivSevenF.style.display === "none") {
+      newDivSevenF.style.display = "block";
+    
+    } 
+    else {
+      newDivSevenF.style.display = "none";
+    }
+    
+
+}
+
+
+
+
+
 /*shoe WHITE BOX */
 //puma marathon
 var shoeOneA = document.getElementById("shoeOneA");

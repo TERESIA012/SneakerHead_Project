@@ -73,6 +73,14 @@ section{
 .product-list6items img:hover{
    width: 19.6rem ;
 }
+.onclickDiv{
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 5rem;
+    background-color: lightcoral;
+    width: 16rem;
+    height: 16rem;
+}
 .row{
     display: flex;
     text-align: center;
