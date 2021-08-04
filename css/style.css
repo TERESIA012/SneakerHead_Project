@@ -31,6 +31,23 @@ img {
     top: 10%;
     right: 14%;
     height: auto;
+    animation: fromLeft 3s;
+    animation-delay: 1.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes fromRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(100px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 
 
 }
