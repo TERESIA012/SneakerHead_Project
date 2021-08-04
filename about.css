@@ -155,3 +155,9 @@ footer i:hover{
       transform: translateY(-10px);
     }
 }
+#para{
+    display: none;
+}
+p{
+    font-size: large;
+}
