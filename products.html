@@ -245,13 +245,40 @@
     </section>
     <!--popUps-->
 
-s
+
     <!--checkout-->
 
-    <section id="checkout">
-        <button>CHECKOUT</button>
-
-    </section>
+    <button id="checkoutbtn"data-modal-target="#modal">CHECKOUT</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">SNEAKER HEAD</div>
+        <button data-close-button class="close-button">x</button>
+      </div>
+      <div class="modal-body">
+          
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Size</th>
+                <th>Colour</th>
+                <th>Price</th>
+                
+               
+                
+            </tr>
+            </thead>
+            <tbody id="checkout-list"></tbody> 
+            
+            <br>
+           
+            
+        </table>
+        <a href="" class="href">Order</a>
+      </div>
+    </div>
+    <div id="overlay"></div>
+ 
 
 
 
