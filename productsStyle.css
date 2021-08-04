@@ -146,6 +146,11 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+tr{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    word-spacing: 1rem;
+  }
 /*modal*/
 .modal {
     position: fixed;
