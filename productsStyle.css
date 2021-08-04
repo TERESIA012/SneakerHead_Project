@@ -25,33 +25,52 @@ section{
     height: auto;
     background-color: white;
     text-align: center;
-    height: 12rem;
+    height: 21rem;
     padding-top: 2rem;
+    padding-bottom: 3rem;
 
 }
+
 .product-list{
     background-color: #04091E;
     font-size: .9rem;
-    height: 12rem;
+    height: 19rem;
+}
+.product-list img{
+    height: 17rem;
+    width: 21rem;
+}
+.product-list6items{
+    background-color: #04091E;
+    font-size: .9rem;
+    height: 25rem;
+}
+.product-list6items img{
+    height: 10rem;
 }
 ul{
-    display: flex;
     width: 100%;
     list-style: none;
     height: 9rem;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 
 }
+
 li{
     
-    flex: 24%;   
+    flex: 50%;   
     color: linen;
     border-radius: 5px;
-    cursor: pointer;
-
+    
 }
-.shoePopUp{
+img{
+    height: 10rem;
+    width: 12rem;
+    cursor: pointer;
+}
+.shoeOnEnter{
     background-color: lightblue;
     display: none;    
 }
