@@ -39,6 +39,11 @@ section{
 .product-list img{
     height: 17rem;
     width: 21rem;
+    border-radius: 5px;
+}
+.product-list img:hover{
+    height: 16rem;
+    width: 20rem;
 }
 .product-list6items{
     background-color: #04091E;
@@ -47,143 +52,38 @@ section{
 }
 .product-list6items img{
     height: 10rem;
-}
-ul{
-    width: 100%;
-    list-style: none;
-    height: 9rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-
-}
-
-li{
-    
-    flex: 50%;   
-    color: linen;
+    width: 15rem;
     border-radius: 5px;
-    
+}
+.product-list6items img:hover{
+   opacity: .6;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.column{
+    flex: 30%;
+
 }
 img{
     height: 10rem;
     width: 12rem;
     cursor: pointer;
 }
-
-/*HIDE WHITE BOX*/
-/*puma marathon*/
-.shoeOneA{
-    display: none;    
+.whiteBox{
+    position: absolute;
+    pointer-events: none;
+    margin-top: -9rem;
+    margin-left: 8rem;
+    font-weight: bold;
+    position: absolute;
+    height: auto;
+    width: 9rem;
+    border-radius: 2px;
+    display: none;
+    text-align: center;
+    color: rgb(49, 2, 2);
+    background-color: #fff;
+    
 }
-
-.shoeOneB{
-    display: none;    
-}
-
-.shoeOneC{
-    display: none;    
-}
-
-
-/*puma*/
-.shoeTwoA{
-    display: none;    
-}
-.shoeTwoB{
-    display: none;    
-}
-.shoeTwoC{
-    display: none;    
-}
-
-/*adidas*/
-.shoeThreeA{
-    display: none;    
-}
-.shoeThreeB{
-    display: none;    
-}
-.shoeThreeC{
-    display: none;    
-}
-.shoeThreeD{
-    display: none;    
-}
-.shoeThreeE{
-    display: none;    
-}
-.shoeThreeF{
-    display: none;    
-}
-/*vans*/
-.shoeFourA{
-    display: none;    
-}
-.shoeFourB{
-    display: none;    
-}
-.shoeFourC{
-    display: none;    
-}
-.shoeFourD{
-    display: none;    
-}
-.shoeFourE{
-    display: none;    
-}
-.shoeFourF{
-    display: none;    
-}
-/*converse*/
-.shoeFiveA{
-    display: none;    
-}
-.shoeFiveB{
-    display: none;    
-}
-.shoeFiveC{
-    display: none;    
-}
-.shoeFiveD{
-    display: none;    
-}
-.shoeFiveE{
-    display: none;    
-}
-.shoeFiveF{
-    display: none;    
-}
-
-
-/*underamour*/
-.shoeSixA{
-    display: none;    
-}
-.shoeSixB{
-    display: none;    
-}
-.shoeSixC{
-    display: none;    
-}
-/*clarks*/
-.shoeSevenA{
-    display: none;    
-}
-.shoeSevenB{
-    display: none;    
-}
-.shoeSevenC{
-    display: none;    
-}
-.shoeSevenD{
-    display: none;    
-}
-.shoeSevenE{
-    display: none;    
-}
-.shoeSevenF{
-    display: none;    
-}
-
-
