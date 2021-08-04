@@ -70,10 +70,120 @@ img{
     width: 12rem;
     cursor: pointer;
 }
-.shoeOnEnter{
-    background-color: lightblue;
+
+/*HIDE WHITE BOX*/
+/*puma marathon*/
+.shoeOneA{
     display: none;    
 }
-.img:hover{
-    display: inline;
+
+.shoeOneB{
+    display: none;    
 }
+
+.shoeOneC{
+    display: none;    
+}
+
+
+/*puma*/
+.shoeTwoA{
+    display: none;    
+}
+.shoeTwoB{
+    display: none;    
+}
+.shoeTwoC{
+    display: none;    
+}
+
+/*adidas*/
+.shoeThreeA{
+    display: none;    
+}
+.shoeThreeB{
+    display: none;    
+}
+.shoeThreeC{
+    display: none;    
+}
+.shoeThreeD{
+    display: none;    
+}
+.shoeThreeE{
+    display: none;    
+}
+.shoeThreeF{
+    display: none;    
+}
+/*vans*/
+.shoeFourA{
+    display: none;    
+}
+.shoeFourB{
+    display: none;    
+}
+.shoeFourC{
+    display: none;    
+}
+.shoeFourD{
+    display: none;    
+}
+.shoeFourE{
+    display: none;    
+}
+.shoeFourF{
+    display: none;    
+}
+/*converse*/
+.shoeFiveA{
+    display: none;    
+}
+.shoeFiveB{
+    display: none;    
+}
+.shoeFiveC{
+    display: none;    
+}
+.shoeFiveD{
+    display: none;    
+}
+.shoeFiveE{
+    display: none;    
+}
+.shoeFiveF{
+    display: none;    
+}
+
+
+/*underamour*/
+.shoeSixA{
+    display: none;    
+}
+.shoeSixB{
+    display: none;    
+}
+.shoeSixC{
+    display: none;    
+}
+/*clarks*/
+.shoeSevenA{
+    display: none;    
+}
+.shoeSevenB{
+    display: none;    
+}
+.shoeSevenC{
+    display: none;    
+}
+.shoeSevenD{
+    display: none;    
+}
+.shoeSevenE{
+    display: none;    
+}
+.shoeSevenF{
+    display: none;    
+}
+
+
