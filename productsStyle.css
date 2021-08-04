@@ -74,3 +74,6 @@ img{
     background-color: lightblue;
     display: none;    
 }
+.img:hover{
+    display: inline;
+}
