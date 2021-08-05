@@ -17,7 +17,7 @@ header{
     background-size: cover;
     height: 20rem;
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(87, 48, 197);
 }
 h1{
     margin-top: 2rem;
@@ -109,7 +109,6 @@ img{
     position: absolute;
     height: auto;
     width: 9rem;
-    border-radius: 2px;
     display: none;
     text-align: center;
     color: rgb(49, 2, 2);
@@ -133,13 +132,14 @@ input{
     z-index: 15;
 }
 #submitbtn{
-    background-color: #000;
+    background-color: #F5AC01;
     height: 3rem;
     width: 11rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 #checkoutbtn{
-    background-color: lawngreen;
+    background-color: rgb(76, 56, 187);
+    font-weight: bold;
     width: 17rem;
     height: 4rem;
     
@@ -150,13 +150,14 @@ table{
     margin-right: auto;
 }
 .orderlist{
-    background-color: lightslategray;
+    background-color: rgb(0, 0, 0);
     width: 50%;
+    color: grey;
     margin-left: auto;
     margin-right: auto;
 }
 tr{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(67, 42, 158);
     color: aliceblue;
     word-spacing: 1rem;
   }
