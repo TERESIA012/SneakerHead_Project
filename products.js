@@ -98,44 +98,44 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
 
 
     var sizeonea = document.getElementsByName("sizeOneA");
-    var size = document.getElementsByName("sizeOneB");
-    var size = document.getElementsByName("sizeOneC");
+    var sizeoneb = document.getElementsByName("sizeOneB");
+    var sizeonec = document.getElementsByName("sizeOneC");
 
-    var size = document.getElementsByName("sizeTwoA");
-    var size = document.getElementsByName("sizeTwoB");
-    var size = document.getElementsByName("sizeTwoC");
+    var sizetwoa = document.getElementsByName("sizeTwoA");
+    var sizetwob = document.getElementsByName("sizeTwoB");
+    var sizetwoc = document.getElementsByName("sizeTwoC");
 
-    var size = document.getElementsByName("sizeThreeA");
-    var size = document.getElementsByName("sizeThreeB");
-    var size = document.getElementsByName("sizeThreeC");
-    var size = document.getElementsByName("sizeThreeD");
-    var size = document.getElementsByName("sizeThreeE");
-    var size = document.getElementsByName("sizeThreeF");
+    var sizethreea = document.getElementsByName("sizeThreeA");
+    var sizethreeb = document.getElementsByName("sizeThreeB");
+    var sizethreec = document.getElementsByName("sizeThreeC");
+    var sizethreed = document.getElementsByName("sizeThreeD");
+    var sizethreee = document.getElementsByName("sizeThreeE");
+    var sizethreef = document.getElementsByName("sizeThreeF");
 
-    var size = document.getElementsByName("sizeFourA");
-    var size = document.getElementsByName("sizeFourB");
-    var size = document.getElementsByName("sizeFourC");
-    var size = document.getElementsByName("sizeFourD");
-    var size = document.getElementsByName("sizeFourE");
-    var size = document.getElementsByName("sizeFourF");
+    var sizefoura = document.getElementsByName("sizeFourA");
+    var sizefourb = document.getElementsByName("sizeFourB");
+    var sizefourc = document.getElementsByName("sizeFourC");
+    var sizefourd = document.getElementsByName("sizeFourD");
+    var sizefoure = document.getElementsByName("sizeFourE");
+    var sizefourf = document.getElementsByName("sizeFourF");
 
-    var size = document.getElementsByName("sizeFiveA");
-    var size = document.getElementsByName("sizeFiveB");
-    var size = document.getElementsByName("sizeFiveC");
-    var size = document.getElementsByName("sizeFiveD");
-    var size = document.getElementsByName("sizeFiveE");
-    var size = document.getElementsByName("sizeFiveF");
+    var sizefivea = document.getElementsByName("sizeFiveA");
+    var sizefiveb = document.getElementsByName("sizeFiveB");
+    var sizefivec = document.getElementsByName("sizeFiveC");
+    var sizefived = document.getElementsByName("sizeFiveD");
+    var sizefivee = document.getElementsByName("sizeFiveE");
+    var sizefivef = document.getElementsByName("sizeFiveF");
     
-    var size = document.getElementsByName("sizeSixA");
-    var size = document.getElementsByName("sizeSixB");
-    var size = document.getElementsByName("sizeSixB");
+    var sizesixa = document.getElementsByName("sizeSixA");
+    var sizesixb = document.getElementsByName("sizeSixB");
+    var sizesixc = document.getElementsByName("sizeSixB");
 
-    var size = document.getElementsByName("sizeSevenA");
-    var size = document.getElementsByName("sizeSevenB");
-    var size = document.getElementsByName("sizeSevenC");
-    var size = document.getElementsByName("sizeSevenD");
-    var size = document.getElementsByName("sizeSevenE");
-    var size = document.getElementsByName("sizeSevenF");
+    var sizesevena = document.getElementsByName("sizeSevenA");
+    var sizesevenb = document.getElementsByName("sizeSevenB");
+    var sizesevenc = document.getElementsByName("sizeSevenC");
+    var sizesevend = document.getElementsByName("sizeSevenD");
+    var sizesevene = document.getElementsByName("sizeSevenE");
+    var sizesevenf = document.getElementsByName("sizeSevenF");
 
     if(sizeonea[0].checked){
         var sizeUk = parseInt(sizeonea[0].value);
@@ -180,9 +180,406 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
 
 
 
+    if(sizeoneb[0].checked){
+        var sizeUk = parseInt(sizeoneb[0].value);
+    
+    }
+    else if(sizeoneb[1].checked){
+        var sizeUk = parseInt(sizeoneb[1].value);
+    }
+    else if(sizeoneb[2].checked){
+        var sizeUk = parseInt(sizeoneb[2].value);
+    }
+    else if(sizeoneb[3].checked){
+        var sizeUk = parseInt(sizeoneb[3].value);
+    }
+    
+
+    if(sizeOneB[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeOneB[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeOneB[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeOneB[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
 
 
+    if(sizeonec[0].checked){
+        var sizeUk = parseInt(sizeonec[0].value);
+    
+    }
+    else if(sizeonec[1].checked){
+        var sizeUk = parseInt(sizeonec[1].value);
+    }
+    else if(sizeonec[2].checked){
+        var sizeUk = parseInt(sizeonec[2].value);
+    }
+    else if(sizeonec[3].checked){
+        var sizeUk = parseInt(sizeonec[3].value);
+    }
+    
 
+    if(sizeOneC[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeOneC[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeOneC[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeOneC[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+
+    //two
+    if(sizetwoa[0].checked){
+        var sizeUk = parseInt(sizetwoa[0].value);
+    
+    }
+    else if(sizetwoa[1].checked){
+        var sizeUk = parseInt(sizetwoa[1].value);
+    }
+    else if(sizetwoa[2].checked){
+        var sizeUk = parseInt(sizetwoa[2].value);
+    }
+    else if(sizetwoa[3].checked){
+        var sizeUk = parseInt(sizetwoa[3].value);
+    }
+    
+    
+
+    if(sizeTwoA[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeTwoA[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoA[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoA[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+    
+    if(sizetwob[0].checked){
+        var sizeUk = parseInt(sizetwob[0].value);
+    
+    }
+    else if(sizetwob[1].checked){
+        var sizeUk = parseInt(sizetwob[1].value);
+    }
+    else if(sizetwob[2].checked){
+        var sizeUk = parseInt(sizetwob[2].value);
+    }
+    else if(sizetwob[3].checked){
+        var sizeUk = parseInt(sizetwob[3].value);
+    }
+    
+    if(sizeTwoB[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeTwoB[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoB[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoB[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+
+    
+    if(sizetwob[0].checked){
+        var sizeUk = parseInt(sizetwob[0].value);
+    
+    }
+    else if(sizetwob[1].checked){
+        var sizeUk = parseInt(sizetwob[1].value);
+    }
+    else if(sizetwob[2].checked){
+        var sizeUk = parseInt(sizetwob[2].value);
+    }
+    else if(sizetwob[3].checked){
+        var sizeUk = parseInt(sizetwob[3].value);
+    }
+    
+
+    if(sizeTwoC[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeTwoC[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoC[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeTwoC[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    
+    }
+    //three
+    if(sizethreea[0].checked){
+        var sizeUk = parseInt(sizethreea[0].value);
+    
+    }
+    else if(sizethreea[1].checked){
+        var sizeUk = parseInt(sizethreea[1].value);
+    }
+    else if(sizethreea[2].checked){
+        var sizeUk = parseInt(sizethreea[2].value);
+    }
+    else if(sizethreea[3].checked){
+        var sizeUk = parseInt(sizethreea[3].value);
+    }
+    
+
+    if(sizeThreeA[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeA[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeA[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeA[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+
+    
+    if(sizethreeb[0].checked){
+        var sizeUk = parseInt(sizethreeb[0].value);
+    
+    }
+    else if(sizethreeb[1].checked){
+        var sizeUk = parseInt(sizethreeb[1].value);
+    }
+    else if(sizethreeb[2].checked){
+        var sizeUk = parseInt(sizethreeb[2].value);
+    }
+    else if(sizethreeb[3].checked){
+        var sizeUk = parseInt(sizethreeb[3].value);
+    }
+    
+
+    if(sizeThreeB[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeB[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeB[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeB[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+    
+    if(sizethreec[0].checked){
+        var sizeUk = parseInt(sizethreec[0].value);
+    
+    }
+    else if(sizethreec[1].checked){
+        var sizeUk = parseInt(sizethreec[1].value);
+    }
+    else if(sizethreec[2].checked){
+        var sizeUk = parseInt(sizethreec[2].value);
+    }
+    else if(sizethreec[3].checked){
+        var sizeUk = parseInt(sizethreec[3].value);
+    }
+    
+
+    if(sizeThreeC[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeC[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeC[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeC[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+
+    
+    if(sizethreed[0].checked){
+        var sizeUk = parseInt(sizethreed[0].value);
+    
+    }
+    else if(sizethreed[1].checked){
+        var sizeUk = parseInt(sizethreed[1].value);
+    }
+    else if(sizethreed[2].checked){
+        var sizeUk = parseInt(sizethreed[2].value);
+    }
+    else if(sizethreed[3].checked){
+        var sizeUk = parseInt(sizethreed[3].value);
+    }
+    
+
+    if(sizeThreeD[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeD[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeD[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeD[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+    
+    if(sizethreee[0].checked){
+        var sizeUk = parseInt(sizethreee[0].value);
+    
+    }
+    else if(sizethreee[1].checked){
+        var sizeUk = parseInt(sizethreee[1].value);
+    }
+    else if(sizethreee[2].checked){
+        var sizeUk = parseInt(sizethreee[2].value);
+    }
+    else if(sizethreee[3].checked){
+        var sizeUk = parseInt(sizethreee[3].value);
+    }
+    
+
+    if(sizeThreeE[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeE[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeE[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeE[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
+    
+    if(sizethreef[0].checked){
+        var sizeUk = parseInt(sizethreef[0].value);
+    
+    }
+    else if(sizethreef[1].checked){
+        var sizeUk = parseInt(sizethreef[1].value);
+    }
+    else if(sizethreef[2].checked){
+        var sizeUk = parseInt(sizethreef[2].value);
+    }
+    else if(sizethreef[3].checked){
+        var sizeUk = parseInt(sizethreef[3].value);
+    }
+    
+    if(sizeThreeF[0].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    
+    }
+    else if(sizeThreeF[1].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeF[2].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+        
+    }
+    else if(sizeThreeF[3].checked){
+        var brand = "Puma X Marathon";
+        var price = 1000;
+    }
 //add to list
     const order = new Order(brand,price,sizeUk);
 
