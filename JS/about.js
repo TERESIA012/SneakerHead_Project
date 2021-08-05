@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $("#d1").click(function(){
+        $(".p1").slideDown(500)
+    });
+	$("#d1").click(function(){
+        $(".p1").slideUp(14000)
+    });
+	$("#d2").click(function(){
+        $(".p2").toggle()
+    });
+    $("#d3").click(function(){
+        $(".p3").slideDown(500)
+    });
+	$("#d3").click(function(){
+        $(".p3").slideUp(9000)
+    });
+    $("#d4").click(function(){
+        $(".p4").slideDown(500)
+    });
+	$("#d4").click(function(){
+        $(".p4").slideUp(10000)
+    });
+
+});
