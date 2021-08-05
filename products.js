@@ -1301,6 +1301,7 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     const order = new Order(brand, price, sizeUk);
 
     UI.addOrderToList(order);
+    document.getElementById('orderForm').reset();
 
 
 
