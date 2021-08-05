@@ -36,7 +36,7 @@ ____
 ___
 ### Known Bugs
 
-#### No know bugs
+#### No known bugs
 ____
  
  ## Licence 
