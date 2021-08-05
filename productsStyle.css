@@ -20,7 +20,12 @@ header{
     color: rgb(255, 0, 0);
 }
 h1{
-    padding-top: 7rem;
+    margin-top: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(179, 165, 165);
 }
 section{
     height: auto;
@@ -155,6 +160,66 @@ tr{
     color: aliceblue;
     word-spacing: 1rem;
   }
+
+/* footer */
+footer {
+    color: #E4E4E4;
+    background-color: #F5AC01;
+}
+/*.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.flex-row{
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+ ul {
+    list-style: none;
+    margin-bottom: 32px;
+    justify-content: center;
+    
+}
+li {
+    padding: 0 15px;
+    margin-bottom: 16px;
+    display: inline;
+}
+a ,
+a:hover{
+    font-size: 14px;
+    font-weight: 500;
+    color: #E4E4E4;
+}
+i {
+    cursor: pointer;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-weight: 800;
+}
+footer i:hover{
+    animation: wobble 3s infinite;
+}
+@keyframes wobble {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(10);
+    }
+    10% {
+      transform: translateY(-10px);
+    }
+    20% {
+      transform: translateY(-10px);
+    }
+}
+
+
+
+
 /*modal*/
 .modal {
     position: fixed;
@@ -221,54 +286,4 @@ tr{
 
 
 
-  .navbar {
-    width: 100%;
-    height: 60px;
-    top: 5;
-    left: 0;
-    padding: 0 25px;
-    position: fixed;
-}
-.navbar .inner-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-.navbar .logo a {
-    font-weight: 700;
-    font-size: 24px;
-    letter-spacing: 3px;
-    color: #E4E4E4;
-}
-.navbar .logo a span {
-    color: #FCB100;
-}
-.navbar .menu ul {
-    display: flex;
-    margin-top: 2rem;
-}
-.navbar .menu ul li a {
-    display: block;
-    width: 120px;
-    margin-left: 3px;
-    margin-right: 0px;
-    text-align: center;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #E4E4E4;
-    padding: 10px;
-    border-radius: 25px;
-    transition: all 0.2s ease;
-}
-a:hover {
-    text-decoration: none;
-}
-.navbar .menu ul li:last-child a {
-    margin-right: 0;
-}
-.navbar .menu ul li a:hover,
-.navbar .menu ul li a.active {
-    background-color: #FCB100;
-}
+  
