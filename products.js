@@ -159,23 +159,23 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
 
     if(sizeOneA[0].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 15000;
         
     
     }
     else if(sizeOneA[1].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 15000;
         
     }
     else if(sizeOneA[2].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 15000;
         
     }
     else if(sizeOneA[3].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 15000;
     }
 
 
@@ -197,23 +197,23 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
 
     if(sizeOneB[0].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 4000;
         
     
     }
     else if(sizeOneB[1].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 4000;
         
     }
     else if(sizeOneB[2].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 4000;
         
     }
     else if(sizeOneB[3].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 4000;
     }
 
 
@@ -234,23 +234,23 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
 
     if(sizeOneC[0].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 3700;
         
     
     }
     else if(sizeOneC[1].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 3700;
         
     }
     else if(sizeOneC[2].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 3700;
         
     }
     else if(sizeOneC[3].checked){
         var brand = "Puma X Marathon";
-        var price = 1000;
+        var price = 3700;
     }
 
     //two
@@ -271,24 +271,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     
 
     if(sizeTwoA[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 4000;
         
     
     }
     else if(sizeTwoA[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 4000;
         
     }
     else if(sizeTwoA[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 4000;
         
     }
     else if(sizeTwoA[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 4000;
     }
     
     if(sizetwob[0].checked){
@@ -306,24 +306,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     }
     
     if(sizeTwoB[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 3000;
         
     
     }
     else if(sizeTwoB[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 3000;
         
     }
     else if(sizeTwoB[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 3000;
         
     }
     else if(sizeTwoB[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 3000;
     }
 
     
@@ -343,24 +343,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     
 
     if(sizeTwoC[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 6000;
         
     
     }
     else if(sizeTwoC[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 6000;
         
     }
     else if(sizeTwoC[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 6000;
         
     }
     else if(sizeTwoC[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Puma";
+        var price = 6000;
     
     }
     //three
@@ -380,24 +380,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     
 
     if(sizeThreeA[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 2500;
         
     
     }
     else if(sizeThreeA[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 2500;
         
     }
     else if(sizeThreeA[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 2500;
         
     }
     else if(sizeThreeA[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 2500;
     }
 
     
@@ -417,24 +417,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     
 
     if(sizeThreeB[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 5000;
         
     
     }
     else if(sizeThreeB[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 5000;
         
     }
     else if(sizeThreeB[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 5000;
         
     }
     else if(sizeThreeB[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 5000;
     }
     
     if(sizethreec[0].checked){
@@ -453,24 +453,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     
 
     if(sizeThreeC[0].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 4000;
         
     
     }
     else if(sizeThreeC[1].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 4000;
         
     }
     else if(sizeThreeC[2].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 4000;
         
     }
     else if(sizeThreeC[3].checked){
-        var brand = "Puma X Marathon";
-        var price = 1000;
+        var brand = "Adidas";
+        var price = 4000;
     }
 
     
