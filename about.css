@@ -25,9 +25,10 @@ body{
 }
 .navbar .logo a {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: 3px;
     color: #E4E4E4;
+    font-family: 'Permanent Marker', cursive;
 }
 .navbar .logo a span {
     color: #FCB100;
