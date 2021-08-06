@@ -137,6 +137,8 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     var sizesevene = document.getElementsByName("sizeSevenE");
     var sizesevenf = document.getElementsByName("sizeSevenF");
 
+    var price = 0;
+
     if (sizeonea[0].checked) {
         var sizeUk = parseInt(sizeonea[0].value);
 
@@ -1298,16 +1300,24 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
         var price = 6000;
     }
     //add to list
-    const order = new Order(brand, price, sizeUk);
+    const order = new Order(brand, price, sizeUk,totalPrice);
+    
+
 
     UI.addOrderToList(order);
     document.getElementById('orderForm').reset();
 
+    var totalPrice = price + price;
 
 
 });
 
+  function myTotalPrice(){
+      alert("Your Order has been received. Thanks for shopping with us");
 
+          
+
+      } 
 
 
 
