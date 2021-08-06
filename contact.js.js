@@ -15,4 +15,9 @@ function blurFunc() {
 inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
+  
 });
+// 
+function submit(){
+  alert("your message has been recieved we will get back to you as soon as possible" );
+};
