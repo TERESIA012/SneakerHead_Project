@@ -1307,7 +1307,7 @@ document.querySelector('#orderForm').addEventListener('submit', (e) => {
     UI.addOrderToList(order);
     document.getElementById('orderForm').reset();
 
-    var totalPrice = price + price;
+    
 
 
 });
